@@ -124,6 +124,7 @@ h6 {
 }
 
 #header.header-scrolled {
+  background: #fff;
   padding: 12px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -586,7 +587,7 @@ section {
   line-height: 1px;
   margin: 0 0 5px 0;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: none;
   color: #aaaaaa;
   font-family: 'Poppins', sans-serif;
 }
@@ -605,7 +606,7 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   font-family: 'Poppins', sans-serif;
   color: #0f2f57;
 }
@@ -943,6 +944,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
 .services .icon-box {
   text-align: center;
   align-self: center;
